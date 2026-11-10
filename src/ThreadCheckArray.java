@@ -7,6 +7,9 @@ import java.util.ArrayList;
  * Thread "thread1" checks the subsets that include the last element, and
  * "thread2" checks the subsets that exclude it. The first thread to find a
  * solution raises the shared flag and publishes its solution vector.
+ * *@author Amir (Student A)
+ *  * @author Guy Kiko (Student B)
+ * * @author Lior Shor (Student C)
  */
 public class ThreadCheckArray implements Runnable {
     /** Whether this thread has found a solution. */
